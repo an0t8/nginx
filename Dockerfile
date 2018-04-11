@@ -10,7 +10,7 @@ RUN \
 # Install packages needed for app
 export DEBCONF_NONINTERACTIVE_SEEN=true DEBIAN_FRONTEND=noninteractive && \
 apt-get update && \
-apt-get -y install nginx-full
+apt-get -y install nginx-full apache2-utils
 
 
 RUN \
